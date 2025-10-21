@@ -91,6 +91,10 @@ figure.alt figcaption {
 
 /* استایل کلی body */
 body {
+  
+  display: grid;
+  grid-auto-flow: column;
+
   margin: 0; /* حذف حاشیه پیش‌فرض */
   min-height: 100vh; /* حداقل ارتفاع کل صفحه */
   display: grid; /* استفاده از گرید */
